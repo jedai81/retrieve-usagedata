@@ -1,0 +1,6 @@
+com/garage/usagedata/config/RedisRepositoryConfig.class
+com/garage/usagedata/bean/UsageData.class
+com/garage/usagedata/config/EmbeddedRedisConfig.class
+com/garage/usagedata/controller/UsageDataController.class
+com/garage/usagedata/RetrieveUsagedataSvcApplication.class
+com/garage/usagedata/repository/UsageDataRedisRepository.class

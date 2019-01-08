@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.garage.usagedata.RetrieveUsagedataSvcApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 2.452 s <<< FAILURE! - in com.garage.usagedata.RetrieveUsagedataSvcApplicationTests
+기본_등록_조회기능(com.garage.usagedata.RetrieveUsagedataSvcApplicationTests)  Time elapsed: 0.303 s  <<< ERROR!
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at com.garage.usagedata.RetrieveUsagedataSvcApplicationTests.기본_등록_조회기능(RetrieveUsagedataSvcApplicationTests.java:37)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at com.garage.usagedata.RetrieveUsagedataSvcApplicationTests.기본_등록_조회기능(RetrieveUsagedataSvcApplicationTests.java:37)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused
+
+기본_등록_조회기능(com.garage.usagedata.RetrieveUsagedataSvcApplicationTests)  Time elapsed: 0.304 s  <<< ERROR!
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at com.garage.usagedata.RetrieveUsagedataSvcApplicationTests.tearDown(RetrieveUsagedataSvcApplicationTests.java:26)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
+	at com.garage.usagedata.RetrieveUsagedataSvcApplicationTests.tearDown(RetrieveUsagedataSvcApplicationTests.java:26)
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused
+

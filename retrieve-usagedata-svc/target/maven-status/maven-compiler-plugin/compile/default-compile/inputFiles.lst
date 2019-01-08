@@ -1,0 +1,6 @@
+/Users/neocode24/Documents/workspace-ibm-garage/retrieve-usagedata-svc/src/main/java/com/garage/usagedata/config/RedisRepositoryConfig.java
+/Users/neocode24/Documents/workspace-ibm-garage/retrieve-usagedata-svc/src/main/java/com/garage/usagedata/RetrieveUsagedataSvcApplication.java
+/Users/neocode24/Documents/workspace-ibm-garage/retrieve-usagedata-svc/src/main/java/com/garage/usagedata/bean/UsageData.java
+/Users/neocode24/Documents/workspace-ibm-garage/retrieve-usagedata-svc/src/main/java/com/garage/usagedata/config/EmbeddedRedisConfig.java
+/Users/neocode24/Documents/workspace-ibm-garage/retrieve-usagedata-svc/src/main/java/com/garage/usagedata/repository/UsageDataRedisRepository.java
+/Users/neocode24/Documents/workspace-ibm-garage/retrieve-usagedata-svc/src/main/java/com/garage/usagedata/controller/UsageDataController.java
