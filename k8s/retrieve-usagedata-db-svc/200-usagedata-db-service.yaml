@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: retrieve-usagedata-db-svc
+  labels:
+    app: retrieve-usagedata-db
+spec:
+  ports:
+  - name: retrieve-usagedata-db
+    port: 80
+    targetPort: 8080
+  selector:
+    app: retrieve-usagedata-db

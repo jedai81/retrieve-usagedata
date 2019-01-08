@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: retrieve-usagedata-db
+spec:
+  selector:
+    matchLabels:
+      app: retrieve-usagedata-db
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: retrieve-usagedata-db
+    spec:
+      containers:
+      - name: retrieve-usagedata
+        image: kos-cluster.icp:8500/sit-kos/retrieve-usagedata-db:0.1
+        args: ["-Dspring.datasource.url=jdbc:postgresql://169.56.74.8/garage -Dspring.data.source.username=kos_user -Dspring.datasource.password=new1234!"]
+        ports:
+        - containerPort: 8080
